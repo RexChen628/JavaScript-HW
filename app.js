@@ -23,7 +23,7 @@ document.querySelector("#searchForm").addEventListener("submit", function (e) {
   e.preventDefault()
   const searchKeyword = document.querySelector("#searchKeyword")
   if (searchKeyword.value !== "") {
-    ul.innerHTML = ""
     getStops(searchKeyword.value)
+    ul.innerHTML = ""
   }
 })
