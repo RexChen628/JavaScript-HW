@@ -1,5 +1,3 @@
-// 程式碼寫這裡
-
 const ul = document.querySelector(".siteList")
 
 async function getStops(input) {
